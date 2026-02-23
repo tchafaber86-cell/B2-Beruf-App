@@ -1,5 +1,7 @@
 import { supabase } from "../../../lib/supabase";
 
+// TEST CHANGE
+
 export const dynamic = "force-dynamic";
 
 export default async function Page({
