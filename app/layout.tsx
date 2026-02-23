@@ -4,6 +4,7 @@ import AppHeader from "./ui/AppHeader";
 export const metadata: Metadata = {
   title: "BerufsDeutsch – Selbstlern-App",
   description: "Prüfungsorientierte Schreibtrainings (B2-DTB) mit KI-Analyse.",
+  manifest: "/manifest.json", // ← hinzugefügt für PWA
 };
 
 export default function RootLayout({
